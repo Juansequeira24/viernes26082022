@@ -1,0 +1,27 @@
+paquete  tareas ;
+
+public  class  troncodecono {
+
+	public  static  void  main ( String [] args ) {
+		doble  g , R , r , h , Abase , abase , Alateral , Atotal , Volumen ;
+
+		R = 2 ;
+		r = 2 ;
+		h = 4 ;
+		g = (( h * h )+( r * r ));
+		doble  generación = Matemáticas . sqrt ( g );
+		Alateral = Matemáticas . PI * gen *( R + r );
+		Base = Matemáticas . PI * Matemáticas . pow ( R , 2 );
+		abase = Matemáticas . PI * Matemáticas . pow ( r , 2 );
+		Atotal = Alateral + Abase + abase ;
+		Volumen =( Math . PI * h *( Math . pow ( R , 2 )+ Math . pow ( r , 2 )+ R * r )/ 3 );
+
+		sistema _ fuera _ println ( "datos del tronco del cono:" );
+        sistema _ fuera _ println ( "generatriz:" + gen );
+        sistema _ fuera _ println ( "Área lateral:" + Alateral );
+        sistema _ fuera _ println ( "Área total:" + Atotal );
+        sistema _ fuera _ println ( "volumen:" + Volumen );
+
+	}
+
+}
